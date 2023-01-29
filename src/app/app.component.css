@@ -1,0 +1,22 @@
+.black {
+    background-color: blue;
+    color: aliceblue;
+    padding: 20px 20px;
+}
+.datos {
+    background-color: aqua;
+    color: black;
+    
+}
+.body1 {
+    background-color: blueviolet;
+    color: black;
+    padding: 20px;
+}
+.btn{
+    padding: 20px;
+    color: white;
+    background-color: brown;
+    display: block;
+    margin: 3px;
+}
