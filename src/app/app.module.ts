@@ -4,13 +4,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { NgFallimgModule  } from "ng-fallimg";
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgFallimgModule.forRoot({
+      default:'/assets/tintomalbec.png'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -11,6 +11,9 @@ export class AppComponent {
   telefono : string;
   nuestrosvinos : string[];
   mostrarnuestrosvinos: boolean;
+  contacto : string;
+  politicadeprivacidad: string;
+
 
   constructor() {
     this.name = 'Vinoteca Familiar';
@@ -18,6 +21,8 @@ export class AppComponent {
     this.telefono = '0351 - 4698000';
     this.nuestrosvinos = ['Malbec', 'Syrah', 'Merlot'];
     this.mostrarnuestrosvinos = false;
+    this.contacto = 'Contacto';
+    this.politicadeprivacidad = 'Politica de Privacidad';
   }
 
   togglenuestrosvinos (){

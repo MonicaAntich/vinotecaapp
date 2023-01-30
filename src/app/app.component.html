@@ -3,14 +3,14 @@
     {{name}}
   </h1>
   </div>
-  <div class="datos">
+  <!-- <div class="datos">
   <p>
     {{direccion}}
   </p>
   <p>
     {{telefono}}
   </p>
-</div>
+</div> -->
   <button (click)="togglenuestrosvinos() "class="btn">
        Nuestros Vinos
   </button>
@@ -19,8 +19,17 @@
   <ul>
     <li *ngFor="let vino of nuestrosvinos">
       {{vino}}
-    <!-- <a href="{{vino}}" target="_blank"></a>  -->
     </li>
   </ul>
+ </div>
+ <div class="footer">
+  <div class="datos">
+    <p>
+      {{direccion}}
+    </p>
+    <p>
+      {{telefono}}
+    </p>
+  </div>
 
-</div>
+ </div>
