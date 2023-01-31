@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { NgFallimgModule  } from "ng-fallimg";
+import { NgFallimgModule  } from 'ng-fallimg';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,9 @@ import { NgFallimgModule  } from "ng-fallimg";
     BrowserModule,
     AppRoutingModule,
     NgFallimgModule.forRoot({
-      default:'/assets/tintomalbec.png'
+      default:'vinotecaapp/src/assets/tintomalbec.png',
+      // profile:'/assets/default-profile-tintomalbec.png',
+      // post: '/assets/default-post-tintomalbec.png'
     })
   ],
   providers: [],
